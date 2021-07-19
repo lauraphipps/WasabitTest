@@ -20,7 +20,7 @@ name: Production Build #
 on: #key to trigger on push to your devlopement branch and when a pull request is opened:
   push:
     branches:
-      - master # can set up as many branches or files, depending on what I want to trigger
+      - main # can set up as many branches or files, depending on what I want to trigger
 #Above will trigger the workflow file for the steps outlined below
 jobs: #where we need to add the functions that will be performed after the push. 
   build-and-deploy: #Job type task
