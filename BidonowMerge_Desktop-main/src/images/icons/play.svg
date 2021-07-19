@@ -1,0 +1,14 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="51.469px" height="50.9px" viewBox="0 0 51.469 50.9" enable-background="new 0 0 51.469 50.9" xml:space="preserve">
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M9.521,25.238l0.003-9.06c0-4.036,3.271-7.307,7.307-7.307h8.499
+		V4.5H14.481c-5.179,0-9.378,4.199-9.378,9.378v11.326L9.521,25.238z"/>
+	<path class="color-light" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M45.544,25.204V13.878c0-5.179-4.199-9.378-9.378-9.378H25.317
+		v4.371h8.499c4.036,0,7.307,3.271,7.307,7.307l0.003,9.06L45.544,25.204z" style="opacity: 0.5;"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M41.126,24.715l-0.003,9.059c0,4.036-3.271,7.308-7.307,7.308
+		h-8.499v4.37h10.849c5.179,0,9.378-4.199,9.378-9.377V24.749L41.126,24.715z"/>
+	<path class="color-light" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M5.104,24.749v11.325c0,5.178,4.199,9.377,9.378,9.377H25.33
+		v-4.37h-8.499c-4.036,0-7.307-3.272-7.307-7.308l-0.003-9.059L5.104,24.749z" style="opacity: 0.5;"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" points="18.502,34.129 34.345,24.982 18.502,15.835 	"/>
+</g>
+</svg>

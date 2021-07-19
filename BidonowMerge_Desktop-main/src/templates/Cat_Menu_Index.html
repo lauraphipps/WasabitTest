@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title></title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../styles/global.css">
+	<link rel="stylesheet" href="../styles/Cat_Menu_Index.css">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="categories-menu">
+			<div class="categories-menu-header">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20.399" height="14.999" viewBox="0 0 20.399 14.999">
+					<g transform="translate(0)">
+						<g transform="translate(0 0)">
+							<rect width="4.2" height="4.199" transform="translate(5.4 10.8)" fill="#356ab3"/>
+							<rect width="4.2" height="4.2" transform="translate(5.4)" fill="#356ab3"/>
+							<rect width="4.2" height="4.199" transform="translate(5.4 5.4)" fill="#356ab3"/>
+							<rect width="4.2" height="4.199" transform="translate(0 5.4)" fill="#356ab3"/>
+							<rect width="4.2" height="4.2" transform="translate(0)" fill="#356ab3"/>
+							<rect width="4.2" height="4.199" transform="translate(0 10.8)" fill="#356ab3"/>
+							<rect width="4.199" height="4.2" transform="translate(16.199)" fill="#356ab3"/>
+							<rect width="4.199" height="4.199" transform="translate(16.199 5.4)" fill="#356ab3"/>
+							<rect width="4.199" height="4.199" transform="translate(16.199 10.8)" fill="#356ab3"/>
+							<rect width="4.199" height="4.199" transform="translate(10.8 10.8)" fill="#356ab3"/>
+							<rect width="4.199" height="4.199" transform="translate(10.8 5.4)" fill="#356ab3"/>
+							<rect width="4.199" height="4.2" transform="translate(10.8)" fill="#356ab3"/>
+						</g>
+					</g>
+				</svg>
+
+				<h2 class="categories-menu-title text-title">Select a Category</h2>
+			</div>
+
+			<ul class="categories-menu-row categories-menu--parents"></ul>
+		</div>
+
+		<div style="margin-top: 50px; max-width: 320px;">
+
+			<input id="sub-categories-autocomplete" type="text" class="input">
+
+		</div>
+
+	</div>
+
+	<div id="categories-popup" class="popup categories-popup" style="max-width: 900px;">
+		<div class="popup-header mobile-header">
+			<h2 class="m-0">Select Subcategory</h2>
+		</div>
+		<div class="popup-header">
+			<img src="" class="categories-popup--icon" width="38px" style="margin-right: 15px;">
+			<h2 class="text-title popup-title categories-popup--title">Beauty</h2>
+
+			<h3 class="text-title text-muted m-0" style="margin-left: auto; margin-right: 15px;">
+				<span class="categories--count">235</span> Sub-Categories
+			</h3>
+			<button type="button" class="popup-close-btn popup--close">&times;</button>
+		</div>
+		<div class="popup-body">
+
+			<nav class="categories-alphabet">
+				<span class="categories-alphabet-prefix">Index</span>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="a">a</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="b">b</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="c">c</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="d">d</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="e">e</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="f">f</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="g">g</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="h">h</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="i">i</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="j">j</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="k">k</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="l">l</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="m">m</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="n">n</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="o">o</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="p">p</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="q">q</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="r">r</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="s">s</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="t">t</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="u">u</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="v">v</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="w">w</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="x">x</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="y">y</a>
+				<a href="#" class="categories-alphabet-char categories-alphabet--char" data-char="z">z</a>
+			</nav>
+
+			<ul class="categories-list categories--list"></ul>
+
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="../js/polyfill.js"></script>
+	<script type="text/javascript" src="../js/global.js"></script>
+	<script type="text/javascript" src="../js/Cat_Menu_Index.js"></script>
+	<script type="text/javascript" src="../js/Cat_Autocomplete.js"></script>
+
+</body>
+</html>

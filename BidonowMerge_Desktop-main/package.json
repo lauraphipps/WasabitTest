@@ -1,0 +1,21 @@
+{
+  "name": "bidonow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.2",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
+  }
+}
